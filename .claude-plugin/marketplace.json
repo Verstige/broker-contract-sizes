@@ -1,0 +1,19 @@
+{
+  "name": "broker-contract-sizes",
+  "description": "Verify a broker's contract_size per instrument so your computed P&L matches the broker-reported number. Audit the contract-size table that survived a broker migration.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Verify a broker's contract_size per instrument so your computed P&L matches the broker-reported number. Audit the contract-size table that survived a broker migration.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "broker-contract-sizes",
+      "source": "./plugins/broker-contract-sizes",
+      "description": "Verify a broker's contract_size per instrument so your computed P&L matches the broker-reported number. Audit the contract-size table that survived a broker migration."
+    }
+  ]
+}
